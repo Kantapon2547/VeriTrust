@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data folders
+data/raw/
+data/processed/
+
+# Outputs
+outputs/
+checkpoints/
+runs/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+*.tmp
+*.temp
+
+# Notebook exports
+*.html
+
+# Cache
+.cache/
+pytest_cache/
+
+# Environment variables
+.env.local
