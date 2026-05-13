@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/User/Jupyter/VeriTrust/mlruns/1/models/m-9a4a8d60845e449b9efcf0eb4059c6b7/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.10.11
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.11.0+cpu
+mlflow_version: 3.12.0
+model_id: m-9a4a8d60845e449b9efcf0eb4059c6b7
+model_size_bytes: 13191839
+model_uuid: m-9a4a8d60845e449b9efcf0eb4059c6b7
+prompts: null
+run_id: c5e0bfb4ba4843fd87725a2127c1ca3e
+utc_time_created: '2026-05-13 16:13:45.494850'
