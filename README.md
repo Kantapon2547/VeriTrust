@@ -77,6 +77,39 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+### Run VeriTrust API
+
+Run the FastAPI server from the project root folder:
+
+```bash
+python -m uvicorn api:app --reload
+```
+
+If successful, open:
+```bash
+http://127.0.0.1:8000
+```
+
+Expected response:
+```bash
+{"message":"VeriTrust API is running"}
+```
+
+API documentation:
+```bash
+http://127.0.0.1:8000/docs
+```
+
+### Load Chrome Extension
+
+1. Open Chrome
+2. Go to: chrome://extensions
+3. Enable:Developer Mode
+4. Click: Load unpacked
+5. Select: veritrust-extension/
+
+The extension should now run locally with the VeriTrust API.
+
 ---
 
 ## Training
