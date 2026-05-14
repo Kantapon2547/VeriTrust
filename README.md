@@ -103,10 +103,10 @@ http://127.0.0.1:8000/docs
 ### Load Chrome Extension
 
 1. Open Chrome
-2. Go to: chrome://extensions
-3. Enable:Developer Mode
-4. Click: Load unpacked
-5. Select: veritrust-extension/
+2. Go to chrome extensions
+3. Enable Developer Mode
+4. Click Load unpacked
+5. Select veritrust-extension/
 
 The extension should now run locally with the VeriTrust API.
 
